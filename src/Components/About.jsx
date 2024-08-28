@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/mountain-background.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Lifelong tech enthusiast and full-stack software engineer with a passion for solving complex problems and building innovative solutions.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Java",
+  "React",
+  "TypeScript & JavaScript",
+  "API Design",
+  "Data Structures",
+  "Algorithms",
 ];
 
 /**
@@ -44,8 +44,13 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = `
+My love for technology started at a young age, building my first website in XHTML, and has only grown stronger since. I've made significant contributions at Allstate, working on projects that saved millions and directly improved the customer experience. As a collaborative team player, I thrive in Agile settings, applying my expertise in Java, TypeScript, React, Spring Boot, and a variety of other tools.
+
+My curiosity extends beyond software development to the intricacies of computer hardware, embedded systems, and the mathematical foundations that underpin it all. I'm equally fascinated by microcontrollers, Arduino projects, and the theoretical aspects of linear algebra and discrete math.
+
+Let's connect! I'm always eager to discuss new opportunities, collaborate on exciting projects, or simply exchange ideas about the ever-evolving world of technology.
+`;
 
 const About = () => {
   return (
